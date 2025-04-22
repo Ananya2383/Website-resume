@@ -1,0 +1,159 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navigation Bar */
+.navbar, .footer-nav {
+    background-color: rgb(131, 88, 88);
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar ul, .footer-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    height: 50px;
+
+     gap: 30px;
+}
+
+.navbar a, .footer-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Layout Container */
+.container {
+    display: flex;
+    min-height: calc(100vh - 100px); /* Adjust for navbar + footer */
+    padding: 20px;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 25%;
+    background-color: rgb(131, 88, 88);
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.profile-pic {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 80%;
+    margin-bottom: 10px;
+    
+    border: 4px solid #ece1e1;
+}
+
+.skills ul, .contact-info {
+    margin-top: 15px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+
+.skills ul li {
+    margin-bottom: 10px;
+    color: #fff;
+    list-style: circle;
+}
+
+/* Main Content */
+.main-content {
+    width: 75%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: -2px 0 5px rgba(0,0,0,0.05);
+}
+
+main section {
+    margin-bottom: 40px;
+}
+.skills h2{
+    color: white;
+    text-align: left;
+    
+    font-size: 25px;
+}
+.skills h1{
+    color: white;
+    font-size: 35px;
+    font-style: italic;
+    text-decoration-line: none;
+}
+h4{
+    color: rgb(136, 76, 76);
+}
+
+h1{
+    color: rgb(136, 76, 76);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+
+}
+
+  .academics-section h2 {
+
+    font-size: 32px;
+    color:rgb(136, 76, 76);
+
+    margin-bottom: 50px;
+  }
+
+  .timeline {
+    position: relative;
+    padding-left: 30px;
+    border-left: 3px solid ;
+  }
+
+  .timeline-item {
+    position: relative;
+    margin-bottom: 40px;
+  }
+
+  .timeline-dot {
+    position: absolute;
+    left: -11px;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(136, 76, 76);
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 0 0 0 2px rgb(136, 76, 76);
+
+  }
+
+  .timeline-content {
+    padding-left: 20px;
+  }
+
+  .timeline-content h3 {
+    font-size: 20px;
+    margin: 0;
+    color:rgb(136, 76, 76);
+  }
+
+  .timeline-content p {
+    font-size: 15px; 
+  }
+  h2{
+    text-decoration: underline;
+  }
